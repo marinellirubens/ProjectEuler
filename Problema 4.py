@@ -21,7 +21,7 @@ def main():
 		StrNUmber = str(number1 * number2)
 		if StrNUmber == StrNUmber[::-1]:
 			StrNUmberArr.append([int(StrNUmber), number1,number2])
-	print(sorted(StrNUmberArr),number1,number2 )
+	print(sorted(StrNUmberArr)[-1])
 
 if __name__ == '__main__':
 	main()
